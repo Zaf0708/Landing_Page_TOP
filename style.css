@@ -38,3 +38,12 @@
   font-size: 26px;
   font-weight: bolder;
 }
+
+.hero-secondary-text {
+  position: absolute;
+  top: 250px;
+  left: 250px ;
+  color: #E5E7EB;
+  font-size: 18px;
+  font-weight: normal;
+}
