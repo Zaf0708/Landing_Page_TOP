@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .header {
@@ -27,4 +28,13 @@
   list-style: none;
   text-decoration: none;
   gap: 3rem;
+}
+
+.hero-text {
+  position: absolute;
+  top: 200px;
+  left: 250px;
+  color: #f9faf8;
+  font-size: 26px;
+  font-weight: bolder;
 }
