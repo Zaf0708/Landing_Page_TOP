@@ -11,6 +11,9 @@
 }
 
 .logo {
+  position: relative;
+  top: 10px;
+  left: 200px;
   width: 100px;
   height: 100px;
 }
