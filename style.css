@@ -77,7 +77,6 @@
   position: relative;
   width: auto;
   height: 400px;
-  background-color: #ffffff;
 }
 
 .product-section-title {
@@ -143,4 +142,10 @@
   top: 275px;
   left: 1000px;
   font-weight: bold;
+}
+
+.register {
+  position: relative;
+  width: auto;
+  height: 300px;
 }
