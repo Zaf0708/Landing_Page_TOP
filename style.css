@@ -42,7 +42,7 @@
 .hero-secondary-text {
   position: absolute;
   top: 175px;
-  left: 250px ;
+  left: 250px;
   color: #E5E7EB;
   font-size: 18px;
   font-weight: normal;
@@ -54,4 +54,21 @@
   position: absolute;
   top: 125px;
   right: 250px;
+}
+
+.header-sign-in {
+ position: absolute;
+ top: 230px;
+ left: 250px;
+ width: 70px;
+ height: 25px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-weight: lighter;
+ color: #E5E7EB;
+ padding: 4px;
+ border: 1px solid #ffffff;
+ border-radius: 5%;
+ background-color: #3882f6 ;
 }
