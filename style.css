@@ -17,3 +17,13 @@
   width: 100px;
   height: 100px;
 }
+
+.header-links {
+  position: absolute;
+  top: 45px;
+  right: 200px;
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  gap: 3rem;
+}
