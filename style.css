@@ -144,8 +144,18 @@
   font-weight: bold;
 }
 
-.register {
+.register-section {
   position: relative;
   width: auto;
   height: 300px;
+}
+
+.register-box {
+  position: relative;
+  top: 20%;
+  left: 25%;
+  right: 25%;
+  width: 750px;
+  height: 150px;
+  background-color: #3882f6;
 }
