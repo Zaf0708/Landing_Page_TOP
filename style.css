@@ -32,7 +32,7 @@
 
 .hero-text {
   position: absolute;
-  top: 200px;
+  top: 125px;
   left: 250px;
   color: #f9faf8;
   font-size: 26px;
@@ -41,9 +41,17 @@
 
 .hero-secondary-text {
   position: absolute;
-  top: 250px;
+  top: 175px;
   left: 250px ;
   color: #E5E7EB;
   font-size: 18px;
   font-weight: normal;
+}
+
+.header-picture {
+  width: 250px;
+  height: 150px;
+  position: absolute;
+  top: 125px;
+  right: 250px;
 }
