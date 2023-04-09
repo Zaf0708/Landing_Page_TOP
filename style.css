@@ -117,8 +117,30 @@
 }
 
 .quote-section {
+  position: relative;
   background-color: #E5E7EB;
   width: auto;
   height: 600px;
+}
 
+.quote {
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  right: 25%;
+  width: 50%;
+  height: 50px;
+  display: flex;
+  align-self: center;
+  color: #1F2937;
+  font-size: 26px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.signature {
+  position: absolute;
+  top: 275px;
+  left: 1000px;
+  font-weight: bold;
 }
