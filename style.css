@@ -76,7 +76,7 @@
 .product-section {
   position: relative;
   width: auto;
-  height: 600px;
+  height: 400px;
   background-color: #ffffff;
 }
 
@@ -105,7 +105,7 @@
 
 .card-section {
   position: absolute;
-  top: 90px;
+  top: 120px;
   left: 30%;
   right: 30%;
   display: flex;
@@ -114,4 +114,11 @@
 
 .product-description {
   padding: 10px;
+}
+
+.quote-section {
+  background-color: #E5E7EB;
+  width: auto;
+  height: 600px;
+
 }
