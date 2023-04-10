@@ -145,34 +145,52 @@ gap: 1rem;
   padding-left: 500px;
 }
 
-.register-section {
+.section-5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: auto;
-  height: 300px;
+  height: 225px;
 }
 
-.register-box {
+.register-container {
   width: 750px;
   height: 125px;
   background-color: #3882f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-/* .register-text {
+.register_text {
   display: flex;
   flex-direction: column;
 }
 
-.text-1 {
+.reg_text-1 {
   font-size: 22px;
   font-weight: bold;
   color: #ffffff;
 }
 
-.text-2 {
+.reg_text-2 {
   font-size: 16px;
   font-weight: lighter;
   color: #ffffff;
 }
 
-.register-sign-up {
- */
+.sign-up {
+  width: 70px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  color: #E5E7EB;
+  padding: 4px;
+  border: 1px solid #ffffff;
+  border-radius: 5%;
+  background-color: #3882f6 ;
 }
+
+
