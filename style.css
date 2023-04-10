@@ -193,4 +193,16 @@ gap: 1rem;
   background-color: #3882f6 ;
 }
 
+.section-6 {
+  width: auto;
+  height: 30px;
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.copyright {
+  color:#ffffff;
+  font-size: 11px;
+}
