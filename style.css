@@ -6,32 +6,36 @@
 }
 
 .header {
-  position: relative;
   width: auto;
   height: 350px;
   background-color: #1F2937;
 }
 
+.banner {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+
 .logo {
-  position: absolute;
-  top: 10px;
-  left: 200px;
   width: 100px;
   height: 100px;
+  margin-top: 10px;
+  margin-left: 20rem;
 }
 
 .header-links {
-  position: absolute;
-  top: 45px;
-  right: 200px;
   display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 20rem;
+  gap: 4rem;
   list-style: none;
   text-decoration: none;
   gap: 3rem;
 }
 
 .hero-text {
-  position: absolute;
   top: 125px;
   left: 250px;
   color: #f9faf8;
@@ -40,7 +44,6 @@
 }
 
 .hero-secondary-text {
-  position: absolute;
   top: 175px;
   left: 250px;
   color: #E5E7EB;
@@ -51,15 +54,9 @@
 .header-picture {
   width: 250px;
   height: 150px;
-  position: absolute;
-  top: 125px;
-  right: 250px;
 }
 
 .header-sign-in {
- position: absolute;
- top: 230px;
- left: 250px;
  width: 70px;
  height: 25px;
  display: flex;
@@ -74,15 +71,11 @@
 }
 
 .product-section {
-  position: relative;
   width: auto;
   height: 400px;
 }
 
 .product-section-title {
-  position: absolute;
-  top: 5%;
-  width: 100%;
   text-align: center;
   color: #1f2937;
   font-size: 36px;
@@ -103,10 +96,6 @@
 }
 
 .card-section {
-  position: absolute;
-  top: 120px;
-  left: 30%;
-  right: 30%;
   display: flex;
   gap: 3rem;
 }
@@ -116,16 +105,12 @@
 }
 
 .quote-section {
-  position: relative;
   background-color: #E5E7EB;
   width: auto;
   height: 350px;
 }
 
 .quote {
-  position: absolute;
-  top: 15%;
-  left: 25%;
   right: 25%;
   width: 50%;
   height: 50px;
@@ -138,32 +123,21 @@
 }
 
 .signature {
-  position: absolute;
-  top: 275px;
-  left: 1000px;
   font-weight: bold;
 }
 
 .register-section {
-  position: relative;
   width: auto;
   height: 300px;
 }
 
 .register-box {
-  position: relative;
-  top: 20%;
-  left: 25%;
-  right: 25%;
   width: 750px;
   height: 125px;
   background-color: #3882f6;
 }
 
 .register-text {
-  position: absolute;
-  top: 40px;
-  left: 45px;
   display: flex;
   flex-direction: column;
 }
@@ -181,5 +155,5 @@
 }
 
 .register-sign-up {
- 
+
 }
